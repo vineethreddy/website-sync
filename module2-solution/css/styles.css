@@ -1,0 +1,154 @@
+* {
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+	
+	body #box1{
+	float: left;
+	width: calc(50% - 10px);
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+body #box2{
+	float: left;
+	width: calc(50% - 10px);	
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+body #box3{
+	clear: left;
+	width: calc(100% - 10px);
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+	
+
+}
+@media(max-width: 767px){
+	body #box1{
+	float: left;
+	width: calc(100% - 10px);
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+body #box2{
+	clear: left;
+	width: calc(100% - 10px);	
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+body #box3{
+	clear: left;
+	width: calc(100% - 10px);
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+
+}
+
+
+
+
+
+
+
+
+
+header {
+	text-align: center;
+	padding: 30px;
+	font-weight: 700;
+	font-size: 200%;
+}
+#title1{
+	background-color: #A52A2A;
+	border: 1px solid black;
+	width: 20%;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+}
+#title2{
+	background-color: #DEB887;
+	border: 1px solid black;
+	width: 20%;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	
+}
+#title3{
+	background-color: #BED990;
+	border: 1px solid black;
+	width: 20%;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+
+.text{
+	padding: 10px;
+	clear: both;
+
+}
+
+#box1{
+	float: left;
+	width: calc(33.33% - 10px);
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+#box2{
+	float: left;
+	width: calc(33.33% - 10px);
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+#box3{
+	float: left;
+	width: calc(33.33% - 10px);
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
